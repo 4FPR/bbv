@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "Creattion";
+    src: url(fonts/Creattion\ Demo.otf);
+}
+@font-face {
+    font-family: "Manier Heavy";
+    src: url(fonts/Manier-Heavy-Trial-BF650bbeaf03121.otf);
+}
+
+@font-face {
+    font-family: "Playfair Semibold";
+    src: url(fonts/PlayfairDisplay-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url(fonts/Roboto-Medium.ttf);
+}
+
+body { 
+    /*background-color: #2D3142;*/
+    background-color: #d2ba9e;
+    margin: 0;
+}
+
+.background {
+    padding-right: 3em;
+    padding-left: 3em;
+    padding-bottom: 3em;
+    min-height: 70vh;
+    display: flex;
+}
+
+.toppadding {
+    padding-top: 3em;
+}
+
+.bg-color-1 {
+    background-color: #d2ba9e;
+}
+
+.bg-color-2 {
+    height: 700px;
+    background-color: #21301F;
+    color: white;
+}
+
+.topbar {
+    display: flex;
+    /* color: #231f1d; */
+    color: #1b1716;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-right: 3em;
+    padding-left: 3em;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    max-width: 42.5%;
+    font-size: clamp(1.5rem, 3vw + 1rem, 2.7rem);
+    line-height: 0.87;
+    font-family: 'Playfair Semibold', serif;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+#name {
+    margin: 0;
+    font-size: clamp(1.5rem, 11vw + 1rem, 12.5rem);
+}
+
+.nav-menu {
+    margin-left: auto;
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    /* justify-self: flex-end; */
+}
+
+.menu-item:first-of-type {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.menu-item {
+    margin-left: 3em;
+}
+
+.main-content {
+    display: flex;
+    color: #1b1716;
+    align-content: stretch;
+}
+
+.main-actions {
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 1rem;
+    align-self: flex-end;
+}
+
+.frontpage-model {
+    height: auto;
+    width: 50%;
+    align-self: center;
+    margin-left: auto;
+}
+
+.portfolio {
+    font-family: 'Roboto Regular', sans-serif;
+    color: #f5efe2;
+}
+
+.social-link {
+    display: flex;
+}
+
+.social-icon {
+    height: 1rem;
+    align-self: center;
+    margin-right: 0.5rem;
+}
+.title {
+    font-size: 1rem;
+    font-style: bold;
+}
