@@ -4,84 +4,126 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="newstyle.css">
-        <title>portfolio</title>
+        <title>MAIN</title>
     </head>
     <body>
         <header>
-            <div class="navbar flex">
-                <img src="images/logo-small.png" class="logo-icon">
-                <div class="nav-menu-wrapp">
-                    <ul class="nav-menu-list flex upper">
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            About
-                        </li>
-                        <li>
-                            Portfolio
-                        </li>
-                    </ul>
+            <nav class="flex">
+                <div class="flex title-container">
+                    <div class="prefix">
+                        <span class="word">
+                            <span class="fade-in">b</span><span class="tracking-in-expand scroll-collapse">eauty</span>
+                        </span>
+                        <span class="word">
+                            <span class="fade-in">b</span><span class="tracking-in-expand scroll-collapse">y</span>
+                        </span>
+                    </div>                
+                    <span class="main-title">vanne</span>
                 </div>
-                
-            </div>
+                <ul class="flex nav-list">
+                    <button>
+                        english
+                    </button>
+                    <li>
+                        <a href="#">home</a>
+                    </li>
+                    <li>
+                        <a href="#">portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">about</a>
+                    </li>
+                </ul>
+            </nav>
+            <hr class="growing-rule">
         </header>
 
-        <div class="background flex first-page bg-color-1">
-            <div class="content flex color-1">
-                <div class="maintitle">
-                    <h3 class="subtitle upper">
-                        beauty by
-                    </h3>
-                    <h1 class="title upper">
-                        vanne
-                    </h1>
+        <section>
+            <div class="flex hero-section">
+                <div class="hero-socials-container">
+                    <div class="hero-socials" id="A">
+                        socials
+                        <br><br>
+                        <ul class="hero-list">
+                            <li>
+                                <a href="#">
+                                    vec
+                                    instagram
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    vec
+                                    facebook
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="socials flex upper">
-                    contact
-                    <br><br>
-                    <a class="social-link"> 
-                        <img class="social-icon" src="images/mediafb.png">
-                        beauty by vanne
-                    </a>
-                    <a class="social-link" href="https://www.instagram.com/xovannebeauty/" target="_blank">
-                        <img class="social-icon" src="images/mediaig.png">
-                        xovannebeauty
-                    </a>
-                </div>
-                <img class="front-image" src="images/widepicture.JPEG">
-
-            </div>
-        </div>
-
-        <div class="background flex bg-color-2">
-            <div class="content flex color-2">
-                <div class="sticky upper">
-                    <h3 class="newsub">
-                        my work
-                    </h3>
-                    <ul class="sticky-list">
-                        <li>
-                            quinceaneras
-                        </li>
-                        <li>
-                            weddings
-                        </li>
-                        <li>
-                            misc.
-                        </li>
-                    </ul>
-                </div>
-                <div class="portfolio-images">
-                    hi
+                <div class="rectangle firstrec">
                 </div>
             </div>
+        </section>
 
-        </div>
+        <section>
+            <div class="flex portfolio-section">
+                <div class="portfolio-nav-container" id="B">
+                    <div class="portfolio-nav">
+                        portfolio
+                        <br><br>
+                        <ul class="portfolio-list">
+                            <li>
+                                <a href="#">quinceañeras</a>
+                            </li>
+                            <li>
+                                <a href="#">weddings</a>
+                            </li>
+                            <li>
+                                <a href="#">other</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="portfolio-gallery">
+                    <div class="portfolio-img"></div>
+                    <div class="portfolio-img"></div>
+                    <div class="portfolio-img"></div>
+                    <div class="portfolio-img"></div>
+                    <div class="portfolio-img"></div>
+                    <div class="portfolio-img"></div>
+                </div>
+            </div>
+        </section>
 
-        <div class="background bg-color-1">
+        <section>
+            <div class="flex about-section">
+                <div class="profile-container">
+                    <div class="about-info">
+                        about
+                        <br><br>
+                        <div class="normal">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat optio at placeat.
+                            Molestiae reprehenderit, assumenda tempora corrupti dolores a dolorum delectus dolor mollitia iste, sit distinctio?
+                            Eos sapiente quidem perferendis. www
+                        </div>
+                    </div>
+                    <div class="contact-info" id="C">
+                        contact
+                        <br><br>
+                        <button>phone</button>
+                        <button>email</button>
+                        <br>
+                        f i                       
+                    </div>
+                </div>
+                <div class="rectangle"></div>
+            </div>
+        </section>
 
-        </div>
-
+        <svg id="vert-line" class="connector">
+            <line id="line" x1="0" y1="0" x2="0" y2="0" />
+        </svg>
+        <script src="line.js"></script>
+        <script src="testing.js"></script>
     </body>
 </html>
